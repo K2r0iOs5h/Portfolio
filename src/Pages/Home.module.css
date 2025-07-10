@@ -1,0 +1,40 @@
+.maincontainer{
+    align-items: center;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 125px;
+}
+
+.maincontainer h1{
+   color: white;
+   font-family: sans-serif;
+   font-weight: 800%;
+   font-size: 100px;
+   line-height: 40px;
+   letter-spacing: -0.02em;
+
+}
+
+.maincontainer p{
+    font-size: 18px;
+    color: 
+rgb(153, 143, 143);
+    font-family:sans-serif;
+    text-align: left;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: -30px;
+       letter-spacing: -0.00001em;
+
+}
+
+.maincontainer .Dev{
+    color: #353334;
+    margin-left: -50px;
+}
+
+.maincontainer .numdata{
+    display: flex;
+    flex-direction:row;
+    color: white;
+}
