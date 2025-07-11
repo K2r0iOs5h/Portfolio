@@ -11,8 +11,11 @@ function App() {
         < >
             <Nav/>
             <div className={styles.fit}>
+           <div className={styles.rite}>
+
             <Profile/>
             <Home/>
+            </div>
             </div>
         </>
     )
