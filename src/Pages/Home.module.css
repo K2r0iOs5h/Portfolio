@@ -11,9 +11,25 @@
    font-family: sans-serif;
    font-weight: 900%;
    font-size: 100px;
-   line-height: 40px;
+   line-height: 35px;
    letter-spacing: -0.02em;
 
+}
+
+.maincontainer h2{
+   color: white;
+   font-family: sans-serif;
+   font-weight: 750%;
+   font-size: 85px;
+   line-height: 15px;
+   letter-spacing: -0.02em;
+
+}
+
+
+
+.maincontainer .recent{
+    text-align: left;
 }
 
 .maincontainer .Devtxt{
@@ -29,11 +45,20 @@ rgb(153, 143, 143);
 
 }
 
+
+.maincontainer .recent{
+    margin-top: 140px;
+}
+
 .maincontainer .Dev{
     color: #353334;
     margin-left: -50px;
 }
 
+
+.maincontainer .pro{
+    color: #353334;
+}
 .maincontainer .numdata{
     display: flex;
     flex-direction:row;
@@ -77,6 +102,7 @@ rgb(153, 143, 143);
     justify-content: space-between;
     margin-top: 60px;
     width: 100%;
+    gap: 20px;
 
 }
 
@@ -91,9 +117,15 @@ rgb(153, 143, 143);
 }
 
 .maincontainer .colorcards .greencard{
-     width: 250px;
+     width: 280px;
     height: 211px;
     background-color: greenyellow;
+    border-radius: 10px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+   
 }
 
 .maincontainer .colorcards .orangecard {
@@ -110,12 +142,29 @@ rgb(153, 143, 143);
 
 }
 
+.maincontainer .colorcards .greencard .ui{
+    margin-right: 190px;
+    margin-bottom: 19px;
+
+}
 .maincontainer .colorcards .orangecard .orangetxt .paratxt{
     font-family: sans-serif;
     font-weight: 550;
     font-size: 24px;
     color: white;
     margin-top: 20px;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.maincontainer .colorcards .greencard .greentxt .paratxtwo{
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 24px;
+    color:black;
+    margin-top: 5px;
     line-height: 26px;
     text-align: left;
     margin-left: 20px;
@@ -135,11 +184,31 @@ rgb(153, 143, 143);
     border-radius: 10px;
     display: block;
     margin-left:290px ;
+    margin-top: 20px;
         
     
     padding: 2px;
 }
 
+.maincontainer
+.colorcards
+.greencard
+.greenbtn{
+    height: 32px;
+    width: 32px;
+    background-color: greenyellow;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: -10px;
+
+    display: block;
+    margin-left:210px ;
+        
+    
+    padding: 2px;
+}
 
 .maincontainer
 .colorcards
@@ -150,6 +219,14 @@ rgb(153, 143, 143);
     margin-top: 5px;
 align-items: center;}
 
+.maincontainer
+.colorcards
+.greencard
+.greenbtn svg{
+    
+    margin-left: 5px;
+    margin-top:4px;
+align-items: center;}
 
 
 .maincontainer
@@ -159,6 +236,14 @@ align-items: center;}
    
     stroke: #f46c38;
 }
+
+.maincontainer
+.colorcards
+.greencard
+.greenbtn:hover svg{
+   
+    stroke: greenyellow;
+}
 .maincontainer
 .colorcards
 .orangecard
@@ -167,4 +252,15 @@ align-items: center;}
     border-color: #f46c38;
     color: #f46c38;
     stroke: #f46c38;
+}
+
+
+.maincontainer
+.colorcards
+.greencard
+.greenbtn:hover{
+    background-color:black;
+    border-color: greenyellow;
+    color: greenyellow;
+    stroke: greenyellow;
 }

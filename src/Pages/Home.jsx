@@ -38,29 +38,39 @@ function Home() {
                         <div className={styles.orangetxt}><p className={styles.paratxt}>DYNAMIC DASHBOARDS, CHARTS & GRAPHS</p></div>
                         <div className={styles.orangebtn}>
                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g>
-    <line x1="5" y1="12" x2="19" y2="12"></line>
-    <polyline points="12,5 19,12 12,19"></polyline>
-  </g>
-</svg></a>
+                              <g>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12,5 19,12 12,19"></polyline>
+                             </g>
+                             </svg></a>
                         </div>
                     </div>
                     <div className={styles.greencard}>
-                        <div className={styles.symbolgrn}></div>
-                        <div className={styles.greentxt}><p></p></div>
-                        <div className={styles.greenbtn}>
-                            
-                            <a href="">
-<svg className={styles.ui} width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="white">   
- <g stroke="#ffffff" stroke-width="8">
+                        <div className={styles.symbolgrn}><svg className={styles.ui} width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="white">   
+ <g stroke="#000000" stroke-width="8">
      <rect x="10" y="10" width="80" height="80" rx="8" ry="8" fill="none" />      
 
    <line x1="10" y1="35" x2="90" y2="35"/>      
    <line x1="35" y1="35" x2="35" y2="90"/> 
  </g>
-</svg></a>
+</svg></div>
+                        <div className={styles.greentxt}><p className={styles.paratxtwo}>MONGODB, EXPRESSJS, REACTJS,NODEJS</p></div>
+                        <div className={styles.greenbtn}>
+                            
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <g>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12,5 19,12 12,19"></polyline>
+                             </g>
+                             </svg>
+</a>
                         </div>
                     </div>
+                </div>
+
+                <div className={styles.recent}>
+                <h2>RECENT</h2>
+                <h2 className={styles.pro}>PROJECTS</h2>
                 </div>
             </div>
         </div>
