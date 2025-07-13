@@ -72,6 +72,15 @@ function Home() {
                 <h2>RECENT</h2>
                 <h2 className={styles.pro}>PROJECTS</h2>
                 </div>
+
+                <div className={styles.projodiv}>
+                    <div className={styles.projcard}>
+                        <div className={styles.projimg}><img src="/icons/suitcase.png" alt=""/></div>
+                        <div className={styles.projtxt}><p></p><p></p></div>
+                        <div className={styles.upicon}>svg</div>
+                    </div>
+                    <div></div>
+                </div>
             </div>
         </div>
     )
