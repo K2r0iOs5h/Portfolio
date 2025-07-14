@@ -75,7 +75,7 @@ function Home() {
 
                 <div className={styles.projodiv}>
                     <div className={styles.projcard}>
-                        <div className={styles.projimg}><img src="/icons/suitcase.png" alt=""/></div>
+                        <div className={styles.projimg}><img src="/icons/inoviam.png" alt=""/></div>
                         <div className={styles.projtxt}><p></p><p></p></div>
                         <div className={styles.upicon}>svg</div>
                     </div>
