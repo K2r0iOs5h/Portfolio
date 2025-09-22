@@ -76,10 +76,121 @@ function Home() {
                 <div className={styles.projodiv}>
                     <div className={styles.projcard}>
                         <div className={styles.projimg}><img src="/icons/inoviam.png" alt=""/></div>
-                        <div className={styles.projtxt}><p></p><p></p></div>
-                        <div className={styles.upicon}>svg</div>
+                        <div className={styles.projtxt}><p className={styles.projhead}>Policy Management System </p><p className={styles.projdes}>Complete Insurance Policy Solution</p></div>
+                        <div className={styles.upicon}> <svg className={styles.upiconsvg}
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      
+    >
+      {/* Arrow line */}
+      <line
+        x1="7"
+        y1="17"
+        x2="17"
+        y2="7"
+        stroke={"#ff6b35"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Arrow head */}
+      <polyline
+        points="13,7 17,7 17,11"
+        stroke={"#ff6b35"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </svg></div>
                     </div>
-                    <div></div>
+                     <div className={styles.projcard}>
+                        <div className={styles.projimg}><img src="/icons/Zenith.png" alt=""/></div>
+                        <div className={styles.projtxt}><p className={styles.projhead}>Zenith '25 </p><p className={styles.projdes}>Register and explore symposium events</p></div>
+                        <div className={styles.upicon}> <svg className={styles.upiconsvg}
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      
+    >
+      {/* Arrow line */}
+      <line
+        x1="7"
+        y1="17"
+        x2="17"
+        y2="7"
+        stroke={"#ff6b35"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Arrow head */}
+      <polyline
+        points="13,7 17,7 17,11"
+        stroke={"#ff6b35"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </svg></div>
+                    </div>
+                     <div className={styles.projcard}>
+                        <div className={styles.projimg}><img src="/icons/Convozo.png" alt=""/></div>
+                        <div className={styles.projtxt}><p className={styles.projhead}>Convozo Ai</p><p className={styles.projdes}>AI-powered platform for English convo practice</p></div>
+                     <div className={styles.upicon}> <svg className={styles.upiconsvg}
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      
+    >
+      {/* Arrow line */}
+      <line
+        x1="7"
+        y1="17"
+        x2="17"
+        y2="7"
+        stroke={"#ff6b35"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Arrow head */}
+      <polyline
+        points="13,7 17,7 17,11"
+        stroke={"#ff6b35"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </svg></div>
+                    </div>
+                    
+                </div>
+
+                  <div className={styles.recent}>
+                <h2>3+ YEARS OF</h2>
+                <h2 className={styles.pro}>EXPERIENCE</h2>
+                </div>
+                <div className={styles.expone}>
+                  <h3 className={styles.exphead}>Innoviam Ai</h3>
+                  <p className={styles.exppara}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta aliquid earum quidem atque cupiditate necessitatibus ut odit maiores ipsum. ipsum dolor sit amet consectetur adipisicing elit. Unde, quaerat.</p>
+                  <p className={styles.expnum}>May - Aug </p>
+
+                </div>
+                <div className={styles.expone}>
+                  <h3 className={styles.exphead}>Exordium DCA</h3>
+                  <p className={styles.exppara}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta aliquid earum quidem atque cupiditate necessitatibus ut odit maiores ipsum. ipsum dolor sit amet consectetur adipisicing elit. Unde, quaerat.</p>
+                  <p className={styles.expnum}>Aug - Present</p>
+
                 </div>
             </div>
         </div>
